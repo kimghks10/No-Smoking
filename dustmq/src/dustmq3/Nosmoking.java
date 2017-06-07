@@ -277,8 +277,8 @@ public class Nosmoking extends JFrame//gui프로그램을 만들기 위한 가�
 						talk.setVisible(false);
 						tip.setVisible(false);
 						Background = new ImageIcon(Main.class.getResource("../images/backo.png")).getImage();//가져온 이미지를 담을 수 있는 하나의 객체
-						JLabel frame= new JLabel("미나어라ㅣㅁㄴ어ㅏㅣ험나ㅣㅇ허ㅏㅣㅁㄴ어햐ㅐ너차피머나ㅣㅓ감짇");
-						backo.add(frame);
+						
+						
 			            backo.setVisible(true);
 					
 					}
@@ -310,11 +310,15 @@ public class Nosmoking extends JFrame//gui프로그램을 만들기 위한 가�
 					@Override
 					public void mousePressed(MouseEvent e)
 					{
-						help.setVisible(true);
+						help.setVisible(false);
 						queset.setVisible(false);
 						complex.setVisible(false);
-						Background = new ImageIcon(Main.class.getResource("../images/talk.png")).getImage();	//가져온 이미지를 담을 수 있는 하나의 객체
+						enlfhrkrl.setVisible(true);
+						talk.setVisible(false);
+						tip.setVisible(false);
 						
+						Background = new ImageIcon(Main.class.getResource("../images/backo.png")).getImage();	//가져온 이미지를 담을 수 있는 하나의 객체
+						backo.setVisible(true);
 			           
 					}
 					

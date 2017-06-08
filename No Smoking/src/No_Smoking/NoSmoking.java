@@ -192,10 +192,10 @@ public class NoSmoking extends JFrame{
 				HelpButton.setVisible(true);
 				QuestButton.setVisible(true);
 				QuestList.setVisible(true);
-				BackButton.setVisible(true);
+				BackButton.setVisible(false);
 				FamousSaying.setVisible(false);
 				Tip.setVisible(false);
-				NoSmokingBackground = new ImageIcon(Main.class.getResource("../images/Smking1.png")).getImage();
+				NoSmokingBackground = new ImageIcon(Main.class.getResource("../images/Smoking1.png")).getImage();;
 			}
 			
 		});
